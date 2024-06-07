@@ -208,3 +208,204 @@ body{
   height: 600px;
   margin-top: 50px;
 }
+
+
+.mobile{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: whitesmoke;
+  padding-left:400px;
+  padding-right: 400px;
+}
+
+.logs{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.AsFeaturedIn{
+  margin-top: 30px;
+}
+.logsimg{
+  display: flex;
+  justify-content: center;
+  gap:50px;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 100%;
+}
+.logspicture{
+  width: 200px;
+  
+}
+.mobilehead{
+  display: flex;
+  flex-direction: column;
+ 
+}
+  
+  
+  
+
+.mobilehead h1{
+  font-size: 50px;
+}
+.mobilehead h4{
+  font-size: 20px;
+  color: #ea580c;
+  margin-bottom: 10px;
+}
+.steps{
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  /* grid-template-rows: repeat(3, 33%%); */
+  
+  gap: 100px;
+
+  
+}
+
+
+.numberone .one{
+  font-size: 70px;
+  color: #9ca3af;
+}
+.numberone .tellus{
+  font-size: 30px;
+  margin-bottom: 15px;
+  
+}
+.neveragain{
+  width: 500px;
+  /* background-color: orange; */
+  font-size: 22px;
+}
+.numbertwo{
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.cyrcle1{
+  height: 350px;
+  width: 350px;
+  background-color: #ffedd5;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cyrcle2{
+  background-color: #fed7aa;
+  height: 250px;
+  width: 250px;
+  border-radius: 9999px;
+}
+.apiscreen{
+  height: 400px;
+  position: absolute;
+
+}
+
+.form{
+  background-color: #fb923c;
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  margin-top: 100px;
+  border-radius: 20px;
+ 
+  
+}
+.eating{
+  width: 400px;
+  height: 500px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.leftpartform{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  gap: 50px;
+}
+
+.forminput{
+  /* background-color: red; */
+  height: 250px;
+  width: 700px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  
+}
+.formheadandparag{
+  background-color: #fb923c;
+  /* height: 150px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  width: 700px; 
+  gap: 30px;
+}
+.headd{
+  font-size: 50px;
+}
+.parap{
+  font-size: 22px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  
+}
+.inputname{
+  width: 250px;
+  height: 30px;
+  border-radius: 7px;
+  border-style: none;
+  padding: 10px;
+}
+
+.signup{
+  width: 250px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #44403c;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.btnsignup{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+
+}
+.name{
+  font-size: 20px;
+}
+.signup:hover{
+  background-color: white;
+  color: black;
+}
+.select{
+  height: 50px;
+  width: 270px;
+  border-radius: 8px;
+}
